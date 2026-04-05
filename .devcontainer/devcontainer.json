@@ -1,0 +1,15 @@
+{
+  "name": "K8s Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
+      "helm": "latest",
+      "kubectl": "latest",
+      "minikube": "none"
+    },
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" },
+    "ghcr.io/devcontainers-extra/features/kind:1": {}
+  },
+  "remoteUser": "vscode"
+}
