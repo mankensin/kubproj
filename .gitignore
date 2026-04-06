@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+frontend/build/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker
+*.tar
+
+# Helm
+helm-charts/*/charts/*.tgz
